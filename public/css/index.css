@@ -140,10 +140,23 @@ body {
 
 .soften {
   margin-top:20px;
-  border-bottom: ultra-thin solid gray;
+  border-bottom: thin solid;
+  color: #4abe97;
 }
 
 #footer {
   margin-top: 10px;
   font-size: 12px;
+}
+
+#logos img {
+  max-width: 250px;
+}
+
+#workplace {
+  text-align: center;
+  font-size:27px;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:100;
+  color: #4abe97;
 }
