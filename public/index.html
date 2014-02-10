@@ -11,12 +11,14 @@
   <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
   <script src="js/bootstrap.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
   <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="css/ie6.css" /><![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar-example" data-offset="30">
   <div id="fb-root"></div>
+
   <div class="bs-header" id="header">
-    <div class="container">
+    <div class="container" id="header_wrapper">
       <div class="row">
         <div class="col-md-7" id="passa_logo">
           <a href="#"><img src="img/passa_logo2.png" /></a>
@@ -26,15 +28,17 @@
           <p id="author">- Henry Ford  1923r.</p>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="container bs-docs-container">
+
+    <div class="content" id="tabs">
       <ul id="tabs" class="nav nav-tabs">
         <li class="active"><a href="#home" data-toggle="tab">Usługi</a></li>
         <li><a href="#about" data-toggle="tab">O nas</a></li>
         <li><a href="#contact" data-toggle="tab">Kontakt</a></li>
       </ul>
-    </div>
-  </div>
-  <div class="container bs-docs-container">
-    <div class="content">
       <div id="tabsContent" class="tab-content">
         <div class="tab-pane fade active in container" id="home">
           <div class='row'>
@@ -106,7 +110,7 @@
             <div class="col-md-3">
               <div id='nav' class="bs-sidebar hidden-print navbar-example" data-spy="affix" data-offset-top="200" role="complementary">
                 <ul class="nav bs-sidenav">
-                  <li><a href="#header">Menu</a></li>
+                  <li><a href="#tabs">Menu</a></li>
                   <li><a href="#sec0">Rachunkowość on-line</a></li>
                   <li><a href="#sec1">Reprezentacja klienta przed organami skarbowymi</a></li>
                   <li><a href="#sec2">Doradztwo finansowe</a>
@@ -156,6 +160,7 @@
         </div>
       </div>
     </div>
+
     <footer>
       <div id='footer'>
         <div class='row'>
@@ -190,6 +195,8 @@
         </div>
       </div>
     </footer>
+
   </div>
+
 </body>
 </html>

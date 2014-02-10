@@ -96,8 +96,6 @@ body {
 }@media (min-width:1200px) {
     .bs-sidebar.affix-bottom, .bs-sidebar.affix {
 }
-}
-
 
 .bs-sidebar.affix-bottom, .bs-sidebar.affix {
 }
@@ -136,6 +134,14 @@ body {
 
 #name {
   margin-top: 50px;
+}
+
+#contact a, a:hover, a:focus {
+  color: #4abe97;
+}
+
+#footer a, a:hover, a:focus {
+  color: #4abe97;
 }
 
 .soften {
